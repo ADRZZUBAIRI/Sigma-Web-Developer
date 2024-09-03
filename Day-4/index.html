@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdul Rehman Z. - Forms</title>
 </head>
+
 <body>
-    
+    <h1>Form 1</h1>
+    <form action="post">
+        <div id="1">
+            <div><label for="username">Username <span style="color: red;">*</span< /label>
+            </div>
+            <input type="text" id="username" username="username" placeholder="Enter your username..." required autofocus
+                pattern="[a-zA-Z0-9]">
+        </div>
+        <div id="2">
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+        </div>
+        <div id="3">
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Check for monthly newsletter!</label>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password...">
+        </div>
+        <div>
+            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Write your comment here..."
+                autofocus></textarea>
+        </div>
+        <div>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
 </body>
+
 </html>
