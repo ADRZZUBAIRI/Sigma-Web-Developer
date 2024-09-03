@@ -1,0 +1,6 @@
+"<p style="background-color: aqua;">"
+
+In inline css the "style" is tag but here "style" is an attribute and <p> is  
+a tag style="background-color" is an attribute of tag <p>
+
+An attribute gives an element enhanced functionality.
