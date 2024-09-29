@@ -1,0 +1,18 @@
+.indented-container {
+  width: 300px; /* Adjust to your needs */
+  height: 200px; /* Adjust to your needs */
+  background-color: #ccc; /* Light grey background */
+  border-radius: 20px; /* Rounded corners for the container */
+  position: relative; /* To position the cutout */
+}
+
+.indented-container::after {
+  content: '';
+  position: absolute;
+  width: 50px; /* Adjust for the size of the cutout */
+  height: 50px;
+  background-color: #333; /* Same as the background of the container's parent */
+  bottom: 0;
+  right: 0;
+  border-radius: 20 20 20 20px; /* Adjust the cutout's rounded corners */
+}
